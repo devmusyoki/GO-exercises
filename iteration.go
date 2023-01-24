@@ -14,3 +14,15 @@ func main() {
 // create an expression such that i equals or is less than 10
 // Iterate and print i only when it is less than 10
 //  i should increment by 1
+
+//ALTERNATIVE
+
+package main
+
+import "fmt"
+
+func main() {
+	for i := 1; i <= 10; i++ {
+         fmt.Println(i)
+	}
+}
